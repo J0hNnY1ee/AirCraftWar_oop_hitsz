@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AircraftWar2024</string>
+    <string name="StandAloneGameText">单机游戏</string>
+    <string name="Music_on">开启音乐</string>
+    <string name="Music_off">关闭音乐</string>
+    <string name="serverGame">联机对战</string>
+</resources>

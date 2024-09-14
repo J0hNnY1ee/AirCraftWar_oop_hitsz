@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.OfflineActivity">
+
+    <TextView
+        android:id="@+id/StandAloneDifficultySelectTextView"
+        android:layout_width="328dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="117dp"
+        android:layout_marginBottom="28dp"
+        android:text="单机模式难度选择"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/StandAloneDifficultySelectButton1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.174" />
+
+
+    <Button
+        android:id="@+id/StandAloneDifficultySelectButton1"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="465dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/StandAloneDifficultySelectTextView"
+        android:text="简单模式"
+        android:textSize="23dp"
+        />
+
+    <Button
+        android:id="@+id/StandAloneDifficultySelectButton2"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="35dp"
+        app:layout_constraintEnd_toEndOf="@+id/StandAloneDifficultySelectButton1"
+        app:layout_constraintStart_toStartOf="@+id/StandAloneDifficultySelectButton1"
+        app:layout_constraintTop_toBottomOf="@+id/StandAloneDifficultySelectButton1"
+        android:text="普通模式"
+        android:textSize="23dp"/>
+
+    <Button
+        android:id="@+id/StandAloneDifficultySelectButton3"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="@+id/StandAloneDifficultySelectButton2"
+        app:layout_constraintStart_toStartOf="@+id/StandAloneDifficultySelectButton2"
+        app:layout_constraintTop_toBottomOf="@+id/StandAloneDifficultySelectButton2"
+        android:text="困难模式"
+        android:textSize="23dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
